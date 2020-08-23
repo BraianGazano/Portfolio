@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Cabezera*/
+
+.contenedor {
+  margin: 0 5%;
+  position: relative;
+}
+
+.cabecero-contenedor, .pie-pagina-contenedor, .principal aside {
+  background: brown;
+}
+
+.titulo {
+  color: white;
+}
+
+nav li:first-child a {
+  margin-left: 0;
+}
+
+nav li :last-child a {
+  margin-right: 0;
+}
+
+nav ul {
+  margin-top: 25px;
+  padding: 0;
+  list-style: none;
+  list-style-image: none;
+}
+
+nav a:hover, nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background: #c91e1e;
+}
+
+nav a {
+  display: block;
+  float: left;
+  width: 27%;
+  margin: 0 1%;
+  padding: 25px 2%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: firebrick;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.limpiar::before, .limpiar::after {
+  content: "";
+  display: table;
+}
+
+.limpiar::after {
+  clear: both;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+/*Contenido*/
+
+.principal {
+  padding: 30px 0;
+}
+
+.principal article h1 {
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.principal aside {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/*Formulario*/
+
+#one-column-emphasis {
+  margin: 50px;
+  width: 500px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#one-column-emphasis caption {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+  color: brown;
+}
+
+#one-column-emphasis td {
+  padding: 10px 15px;
+  color: brown;
+  border-top: 1px solid #e8edff;
+  font-weight: bold;
+}
+
+#one-column-emphasis th {
+  font-size: 15px;
+  font-weight: normal;
+  padding: 12px 15px;
+  color: #d17575;
+}
+
+.oce-first {
+  background: #d17575;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+
+#submit {
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  background: firebrick;
+  border-radius: 10px;
+}
+
+#submit:hover {
+  background: #c91e1e;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*Pie de pagina*/
+
+.pie-pagina-contenedor footer {
+  color: white;
+  padding: 20px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Redes {
+  display: inline-block;
+  margin-left: 10px;
+  transition: .5s;
+}

@@ -1,0 +1,52 @@
+/*Barra de navegacion*/
+
+nav a {
+  margin: 0 0 10px 0;
+  padding: 15px 0;
+  width: 100%;
+}
+
+/*------------------------------------------------------*/
+
+/*Titulos*/
+
+.titulo {
+  text-align: center;
+}
+
+/*------------------------------------------------------*/
+
+/*Nota*/
+
+.principal aside {
+  padding: 5px 5px 5px 10px;
+}
+
+/*------------------------------------------------------*/
+
+/*Pie de Pagina*/
+
+footer {
+  text-align: center;
+}
+
+/*------------------------------------------------------*/
+
+/*Foto de perfil "Sobre mi"*/
+
+aside.foto_perfil {
+  width: auto;
+  float: right;
+  padding: 5px;
+}
+
+/*------------------------------------------------------*/
+
+/*Formulario*/
+
+#one-column-emphasis {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}

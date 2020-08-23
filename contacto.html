@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      rel="stylesheet"
+      href="escritorio.css"
+      media="only screen and (min-width:769px)"
+    />
+    <link
+      rel="stylesheet"
+      href="tablets.css"
+      media="only screen and (max-width:768px) and (min-width:481px)"
+    />
+    <link
+      rel="stylesheet"
+      href="moviles.css"
+      media="only screen and (max-width:480px) and (min-width:0px)"
+    />
+  </head>
+
+  <body>
+    <div class="cabecero-contenedor">
+      <header class="contenedor limpiar">
+        <h1 class="titulo">Consultas</h1>
+        <nav class="volver">
+          <ul>
+            <li><a href="index.html">Volver</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="principal contenedor">
+      <form
+        class="form"
+        action="/ladoDelServidor"
+        method="POST"
+        onsubmit="return validarFormulario(this)"
+      >
+        <table width="350" id="one-column-emphasis">
+          <caption>
+            Enviame una consulta
+          </caption>
+          <tr>
+            <td class="oce-first">
+              <label for="name">Nombre</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="name"
+                required
+                placeholder="Fernando"
+                class="default"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="oce-first">
+              <label for="surname">Apellido</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="surname"
+                required
+                placeholder="Garcia"
+                class="default"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="oce-first">
+              <label for="email">Email</label>
+            </td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                required
+                placeholder="usuario@gmail.com"
+                class="default"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="oce-first">
+              <label for="comments">Comentarios</label>
+            </td>
+            <td>
+              <textarea
+                name="texto"
+                cols="20"
+                rows="3"
+                class="default"
+              ></textarea>
+            </td>
+          </tr>
+          <tr style="text-align: center;">
+            <td>
+              <input type="submit" value="Enviar" class="default" id="submit" />
+            </td>
+            <td>
+              <input
+                type="reset"
+                value="Reiniciar"
+                class="default"
+                id="submit"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
