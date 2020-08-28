@@ -1,7 +1,7 @@
 /*Cabezera*/
 
 .cabecero-contenedor,
-.principal aside {
+.nota {
   box-shadow: 0 5px 10px #aaa;
 }
 
@@ -30,10 +30,11 @@ nav {
   width: 57%;
 }
 
-.principal aside {
+.nota {
+  width: 30%;
   float: right;
-  width: 28%;
-  padding: 0px 5% 10px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 #one-column-emphasis {
@@ -46,8 +47,7 @@ nav {
 
 .principal aside.foto_perfil {
   float: right;
-  width: 29%;
-  padding: 25px;
+  width: auto;
 }
 
 /*-----------------------------------------------------------------------------*/
