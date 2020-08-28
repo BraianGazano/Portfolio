@@ -11,6 +11,11 @@ nav a {
 .volver {
   padding: 5px 5px 5px 10px;
 }
+
+.titulo {
+  text-align: center;
+}
+
 /*----------------------------------------------------*/
 
 /*Foto de perfil "Sobre mi"*/
