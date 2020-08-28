@@ -8,21 +8,22 @@ nav a {
   padding: 15px 0;
   width: 100%;
 }
-.volver {
-  padding: 5px 5px 5px 10px;
-}
-
 .titulo {
   text-align: center;
 }
 
+.volver {
+  padding: 5px 5px 5px 10px;
+}
 /*----------------------------------------------------*/
 
 /*Foto de perfil "Sobre mi"*/
+aside {
+  width: 300px;
+  margin: 0 auto;
+}
 
 aside.foto_perfil {
-  width: auto;
-  float: right;
   padding: 15px;
 }
 
@@ -36,3 +37,4 @@ aside.foto_perfil {
   text-align: center;
   border-collapse: collapse;
 }
+
