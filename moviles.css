@@ -10,7 +10,6 @@ nav a {
   margin: 0;
 }
 
-
 /*------------------------------------------------------*/
 
 /*Titulos*/
@@ -40,9 +39,7 @@ footer {
 /*Foto de perfil "Sobre mi"*/
 
 aside.foto_perfil {
-  width: auto;
-  float: right;
-  padding: 5px;
+  display: none;
 }
 
 /*------------------------------------------------------*/
