@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font: 16px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /*Cabezera*/
@@ -11,7 +11,9 @@ body {
   position: relative;
 }
 
-.cabecero-contenedor, .pie-pagina-contenedor, .principal aside {
+.cabecero-contenedor,
+.pie-pagina-contenedor,
+.nota {
   background: brown;
 }
 
@@ -34,7 +36,8 @@ nav ul {
   list-style-image: none;
 }
 
-nav a:hover, nav a:visited {
+nav a:hover,
+nav a:visited {
   color: white;
 }
 
@@ -54,10 +57,11 @@ nav a {
   font-weight: bold;
   color: white;
   background: firebrick;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.limpiar::before, .limpiar::after {
+.limpiar::before,
+.limpiar::after {
   content: "";
   display: table;
 }
@@ -76,12 +80,12 @@ nav a {
 
 .principal article h1 {
   font-size: 2em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .principal aside {
   color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /*-----------------------------------------------------------------------------------------------*/
@@ -141,11 +145,11 @@ nav a {
 .pie-pagina-contenedor footer {
   color: white;
   padding: 20px 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .Redes {
   display: inline-block;
   margin-left: 10px;
-  transition: .5s;
+  transition: 0.5s;
 }
