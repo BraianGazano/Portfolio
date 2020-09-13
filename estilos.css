@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-size: 1.2em;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Raleway", "Times New Roman", Times, serif;
 }
 
 /*Cabezera*/
@@ -23,6 +23,10 @@ body {
 
 .titulo {
   color: white;
+}
+
+.subtitulo {
+  color: #0086d6;
 }
 
 nav li {
@@ -89,13 +93,13 @@ nav a {
 
 .principal article h1 {
   font-size: 2em;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Raleway", "Times New Roman", Times, serif;
 }
 
 .nota {
   color: white;
   border-radius: 10px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Raleway", "Times New Roman", Times, serif;
 }
 
 /*-----------------------------------------------------------------------------------------------*/
@@ -163,7 +167,7 @@ nav a {
 .pie-pagina-contenedor footer {
   color: white;
   padding: 2% 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Raleway", "Times New Roman", Times, serif;
 }
 
 .pie-pagina-contenedor {
