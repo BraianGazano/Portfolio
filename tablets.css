@@ -8,6 +8,16 @@ nav a {
   padding: 15px 0;
   width: 100%;
 }
+.noticias,
+.nota {
+  padding: 1%;
+}
+
+aside.nota {
+  margin: 0 auto 3%;
+  width: 300px;
+}
+
 .titulo {
   text-align: center;
 }
@@ -18,22 +28,10 @@ nav a {
 /*----------------------------------------------------*/
 
 /*Foto de perfil "Sobre mi"*/
-aside {
-  width: 300px;
+aside .foto_perfil {
+  width: 60%;
+  display: flex;
   margin: 0 auto;
 }
 
-aside.foto_perfil {
-  padding: 15px;
-}
-
 /*------------------------------------------------------*/
-
-/*Formulario*/
-
-#one-column-emphasis {
-  margin: 0;
-  width: 100%;
-  text-align: center;
-  border-collapse: collapse;
-}

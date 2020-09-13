@@ -1,13 +1,14 @@
 /*Barra de navegacion*/
 
 nav a {
-  margin: 0 0 10px 0;
-  padding: 15px 0;
-  width: 100%;
+  margin: 0 0 4% 0;
+  padding: 10% 0;
+  justify-content: space-between;
 }
 
 .contenedor {
   margin: 0;
+  padding: 2%;
 }
 
 /*------------------------------------------------------*/
@@ -22,7 +23,8 @@ nav a {
 
 /*Nota*/
 
-.principal aside {
+.nota,
+.noticias {
   padding: 5px 5px 5px 10px;
 }
 
@@ -38,7 +40,8 @@ footer {
 
 /*Foto de perfil "Sobre mi"*/
 
-aside.foto_perfil {
+aside.nota,
+.foto_perfil {
   display: none;
 }
 
@@ -46,8 +49,8 @@ aside.foto_perfil {
 
 /*Formulario*/
 
-#one-column-emphasis {
-  margin: 0;
+.form {
+  justify-content: center;
   width: 100%;
   text-align: center;
   border-collapse: collapse;
