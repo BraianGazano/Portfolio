@@ -15,9 +15,7 @@ body {
   position: relative;
 }
 
-.cabecero-contenedor,
-.pie-pagina-contenedor,
-.nota {
+.cabecero-contenedor, .pie-pagina-contenedor, .nota {
   background: #5ebad6;
 }
 
@@ -46,10 +44,19 @@ nav a:visited {
   color: white;
 }
 
+@keyframes changenav {
+  from {
+    background: #0086d6;
+    color: white;
+  }
+  to {
+    background: white;
+    color: #0086d6;
+  }
+}
+
 nav a:hover {
-  color: #0086d6;
-  background: white;
-  transition: 0.6s;
+  animation: changenav 2s linear 4 normal forwards;
 }
 
 nav a {
@@ -67,8 +74,7 @@ nav a {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.limpiar::before,
-.limpiar::after {
+.limpiar::before, .limpiar::after {
   content: "";
   display: table;
 }
@@ -160,6 +166,17 @@ nav a {
   color: #0086d6;
 }
 
+/*-------------------------------------------------------------------------------------------------*/
+
+/*Ubicacion*/
+
+.articulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
 /*------------------------------------------------------------------------------------------------*/
 
 /*Pie de pagina*/
@@ -175,6 +192,35 @@ nav a {
 }
 
 .Redes {
-  display: inline-block;
+  display: flex;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.Redes div {
   margin-left: 1%;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 1%;
+}
+
+.Redes a {
+  color: white;
+}
+
+@keyframes changeicons {
+  from {
+    background: #5ebad6;
+  }
+  to {
+    background: white;
+  }
+}
+
+.Redes div:hover {
+  animation: changeicons 2s linear 4 normal forwards;
+}
+
+.Redes a:hover {
+  color: #5ebad6;
 }

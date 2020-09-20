@@ -2,8 +2,22 @@
 
 nav a {
   margin: 0 0 4% 0;
-  padding: 10% 0;
-  justify-content: space-between;
+  width: auto;
+  justify-content: center;
+}
+
+nav ul {
+  height: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+nav li {
+  width: 100%;
+}
+
+.volver li {
+  width: auto;
 }
 
 .contenedor {
@@ -23,8 +37,7 @@ nav a {
 
 /*Nota*/
 
-.nota,
-.noticias {
+.nota, .noticias {
   padding: 5px 5px 5px 10px;
 }
 
@@ -36,12 +49,19 @@ footer {
   text-align: center;
 }
 
+.Redes {
+  justify-content: space-around;
+}
+
+.Redes div {
+  padding: 2%;
+}
+
 /*------------------------------------------------------*/
 
 /*Foto de perfil "Sobre mi"*/
 
-aside.nota,
-.foto_perfil {
+aside.nota, .foto_perfil {
   display: none;
 }
 
