@@ -62,16 +62,14 @@ nav a:hover {
 nav a {
   display: flex;
   width: 100%;
-  margin: 0;
   padding: 25px 20%;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
   border-radius: 10px;
-  border: black solid 1px;
   color: white;
   background: #0086d6;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Raleway", "Times New Roman", Times, serif;
 }
 
 .limpiar::before, .limpiar::after {
@@ -85,8 +83,6 @@ nav a {
 
 .volver li a {
   display: inline-block;
-  width: auto;
-  justify-content: center;
 }
 
 /*----------------------------------------------------------------------------------------------*/
@@ -118,28 +114,28 @@ nav a {
   width: 50%;
 }
 
-#one-column-emphasis {
+.one-column-emphasis {
   margin: 0 auto;
   width: 100%;
   text-align: center;
   border-collapse: collapse;
 }
 
-#one-column-emphasis caption {
+.one-column-emphasis caption {
   font-size: 20px;
   text-align: center;
   margin-bottom: 2%;
   color: #0086d6;
 }
 
-#one-column-emphasis td {
+.one-column-emphasis td {
   padding: 2.2% 3%;
   color: #0086d6;
   border-top: 1px solid #e8edff;
   font-weight: bold;
 }
 
-#one-column-emphasis th {
+.one-column-emphasis th {
   font-size: 1.2em;
   font-weight: normal;
   padding: 2% 3%;
@@ -152,7 +148,7 @@ nav a {
   border-left: 10px solid transparent;
 }
 
-#submit {
+.submit {
   color: white;
   font-weight: bold;
   font-size: 1.2em;
@@ -160,7 +156,7 @@ nav a {
   border-radius: 10px;
 }
 
-#submit:hover {
+.submit:hover {
   transition: 0.6s;
   background: white;
   color: #0086d6;
