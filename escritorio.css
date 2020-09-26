@@ -39,12 +39,14 @@ article .noticias {
   margin: 0 auto;
 }
 
-.bienvenido, .foto_perfil {
+.bienvenido {
   width: 50%;
+  height: auto;
 }
 
 aside .foto_perfil {
-  margin: 15%;
+  width: 70%;
+  padding: 15%;
 }
 
 /*-----------------------------------------------------------------------------*/
